@@ -70,3 +70,6 @@ a {
   padding: 20px;
   border-radius: 50%;
 }
+.itemsContainer a:active {
+  color: #66a901;
+}

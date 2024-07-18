@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FaShoppingCart } from "react-icons/fa";
 import style from "../Navbar/Navbar.module.css";
@@ -16,11 +16,46 @@ export default function Navbar() {
       </div>
       <div className={style.rightContainer}>
         <div className={style.itemsContainer}>
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/about">About</NavLink>
-          <NavLink to="/benefits">Benefits</NavLink>
-          <NavLink to="/testimonials">Testimonials</NavLink>
-          <NavLink to="/pricing">Pricing</NavLink>
+          <NavLink
+            to="/"
+            style={({ isActive }) => {
+              return isActive ? { color: "#66a901" } : {};
+            }}
+          >
+            Home
+          </NavLink>
+          <NavLink
+            to="/about"
+            style={({ isActive }) => {
+              return isActive ? { color: "#66a901" } : {};
+            }}
+          >
+            About
+          </NavLink>
+          <NavLink
+            to="/benefits"
+            style={({ isActive }) => {
+              return isActive ? { color: "#66a901" } : {};
+            }}
+          >
+            Benefits
+          </NavLink>
+          <NavLink
+            to="/testimonials"
+            style={({ isActive }) => {
+              return isActive ? { color: "#66a901" } : {};
+            }}
+          >
+            Testimonials
+          </NavLink>
+          <NavLink
+            to="/pricing"
+            style={({ isActive }) => {
+              return isActive ? { color: "#66a901" } : {};
+            }}
+          >
+            Pricing
+          </NavLink>
         </div>
         <div className={style.btnContainer}>
           <div className={style.contactBtn}>Contact Us</div>
