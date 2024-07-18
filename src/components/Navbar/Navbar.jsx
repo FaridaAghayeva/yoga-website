@@ -16,7 +16,7 @@ export default function Navbar() {
       </div>
       <div className={style.rightContainer}>
         <div className={style.itemsContainer}>
-          <NavLink to="/home">Home</NavLink>
+          <NavLink to="/">Home</NavLink>
           <NavLink to="/about">About</NavLink>
           <NavLink to="/benefits">Benefits</NavLink>
           <NavLink to="/testimonials">Testimonials</NavLink>
