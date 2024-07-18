@@ -1,0 +1,72 @@
+@import "@fontsource/noto-sans";
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #151515;
+  color: white;
+  margin: 0;
+  padding: 15px 30px;
+  font-family: "Noto Sans";
+  position: fixed;
+  width: 97%;
+  z-index: 999;
+}
+a {
+  text-decoration: none;
+}
+.itemsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.itemsContainer a {
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px;
+}
+.logoContainer {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  gap: 20px;
+  font-weight: bold;
+}
+.rightContainer {
+  display: flex;
+  gap: 50px;
+}
+.btnContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.rightContainer {
+  display: flex;
+}
+
+.logo img {
+  width: 70px;
+  border-radius: 50%;
+}
+
+.yogart {
+  font-size: 30px;
+}
+
+.contactBtn {
+  font-size: 17px;
+  font-weight: bold;
+  background-color: #66a901;
+  padding: 20px 60px;
+  border-radius: 50px;
+}
+
+.shoppingCart {
+  background-color: #66a901;
+  padding: 20px;
+  border-radius: 50%;
+}

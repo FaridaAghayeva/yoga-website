@@ -1,0 +1,45 @@
+.container {
+  background-image: url("https://assets.website-files.com/5f36828308ea3b14a0500991/5f36828308ea3b0a5c500a27_trainers-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 20px;
+  gap: 30px;
+  padding-top: 15%;
+  justify-content: center;
+  align-items: center;
+}
+.item {
+  background-color: white;
+  width: 330px;
+  height: 370px;
+  border-radius: 30px;
+  padding: 30px 0;
+}
+.img img {
+  width: 130px;
+  border-radius: 50%;
+}
+.job {
+  color: #66a901;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 12px;
+  padding: 15px;
+}
+.name {
+  font-weight: bolder;
+  font-size: 27px;
+  padding-bottom: 20px;
+}
+
+.text {
+  line-height: 30px;
+  width: 230px;
+  margin: auto;
+}

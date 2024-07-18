@@ -1,0 +1,38 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #151515;
+  text-align: center;
+  color: white;
+  padding: 70px;
+  font-size: 20px;
+  font-weight: bold;
+  bottom: 0;
+}
+.itemContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
+.logosContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  justify-content: center;
+  font-size: 30px;
+  align-items: center;
+  text-align: center;
+}
+.logosContainer span {
+  background-color: #66a901;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.poweredContainer {
+  display: flex;
+  justify-content: center;
+  margin-right: 0;
+  align-items: center;
+}

@@ -1,0 +1,6 @@
+@import "@fontsource/noto-sans";
+
+* {
+  margin: 0;
+  font-family: "Noto Sans";
+}
